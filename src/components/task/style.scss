@@ -1,0 +1,27 @@
+.task {
+  padding-bottom: 1em;
+  border-bottom: 1px solid rgb(217,217,217);
+
+  .task-title {
+    font-size: 14px;
+
+    .edit-icon {
+      float: right;
+      visibility: hidden;
+      cursor: pointer;
+      margin-right: 10px;
+    }
+  }
+
+  .task-content {
+    color: rgb(140, 140, 140);
+    font-size: 12px;
+  }
+
+
+
+  &:hover .edit-icon {
+    visibility: visible !important;
+    cursor: pointer;
+  }
+}

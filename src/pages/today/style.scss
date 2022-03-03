@@ -1,0 +1,38 @@
+.today {
+  .head {
+    margin-bottom: 0.7em;
+    span {
+      margin-right: 0.5em;
+    }
+  
+    .title {
+      font-size: 18px;
+      font-weight: bolder;
+    }
+  
+    .subtitle {
+      font-size: 12px;
+    }
+  }
+
+  .add-task {
+    display: flex;
+    align-items: center;
+    .add-icon, .add {
+      cursor: pointer;
+    }
+
+    .add {
+      flex: auto;
+      color: rgb(140, 140, 140);
+      font-size: 13px;
+      margin-left: 0.7em;
+
+      &:hover {
+        color: #DB4C3F;
+      }
+    }
+  }
+
+  
+}

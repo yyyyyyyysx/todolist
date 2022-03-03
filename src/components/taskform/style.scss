@@ -1,0 +1,46 @@
+.task-form {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+
+  .task-title {
+    font-size: 14px;
+    border: none;
+    outline: none;
+  }
+  .task-content {
+    height: 50px;
+    font-size: 12px;
+    outline: none;
+    resize: none;
+    border: none;
+  }
+
+  button {
+    border-radius: 5px;
+    height: 32px;
+    line-height: 32px;
+    margin-right: 1em;
+    font-weight: 600;
+  }
+
+  .add-button {
+    color: #fff;
+    background-color: #db4c3f;
+    border: none;
+    width: 70px; 
+  }
+
+  .cancel-button {
+    background-color: transparent;
+    border: 1px solid rgba(0,0,0,.1);
+    color: rgba(0,0,0,.88);
+    width: 50px;
+
+    &:hover {
+      background-color: #ddd;
+    }
+  }
+}
